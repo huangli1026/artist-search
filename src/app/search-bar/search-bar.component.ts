@@ -13,7 +13,7 @@ export class SearchBarComponent implements OnInit {
 
   constructor(private http: HttpClient) {
     this.searchTerms.pipe(
-      debounceTime(500)
+      debounceTime(5000)
     ).subscribe(term => this.searchAlbums(term));
    
    }
