@@ -1,0 +1,32 @@
+.search-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .album-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .album-item {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .album-item img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .album-item p {
+    width: 100px;
+    word-wrap: break-word;
+  }
+  

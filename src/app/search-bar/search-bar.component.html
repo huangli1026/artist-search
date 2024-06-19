@@ -1,0 +1,10 @@
+<div class="search-container">
+    <input type="text" placeholder="Enter artist name" (input)="onSearch($event)">
+  </div>
+  <div class="album-list">
+    <div *ngFor="let album of albums" class="album-item">
+      <img [src]="album.artworkUrl100" alt="{{ album.collectionName }}">
+      <p>{{ album.collectionName }}</p>
+    </div>
+  </div>
+  
